@@ -1,0 +1,30 @@
+.teacher-toolbar{
+    display:flex;
+    gap:16px;
+    align-items:center;
+    margin:24px 0;
+    flex-wrap:wrap;
+}
+
+.teacher-search{
+    width:320px;
+}
+
+.teacher-toolbar input,
+.teacher-toolbar select{
+    height:44px;
+    padding:0 14px;
+    border:1px solid #dbe2ea;
+    border-radius:10px;
+    font-size:14px;
+    background:#fff;
+}
+
+.toolbar-button{
+    height:44px;
+    padding:0 18px;
+    border:1px solid #dbe2ea;
+    border-radius:10px;
+    background:#fff;
+    cursor:pointer;
+}

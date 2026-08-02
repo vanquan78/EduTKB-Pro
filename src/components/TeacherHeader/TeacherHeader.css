@@ -1,0 +1,39 @@
+.teacher-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:32px;
+}
+
+.teacher-header-left h1{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:10px;
+}
+
+.teacher-header-left p{
+    color:#64748b;
+    font-size:16px;
+}
+
+.teacher-header-right{
+    display:flex;
+    gap:16px;
+}
+
+.btn-secondary{
+    padding:12px 22px;
+    border-radius:12px;
+    border:1px solid #dbe2ea;
+    background:white;
+    cursor:pointer;
+}
+
+.btn-primary{
+    padding:12px 22px;
+    border:none;
+    border-radius:12px;
+    background:#2563eb;
+    color:white;
+    cursor:pointer;
+}

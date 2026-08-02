@@ -1,0 +1,199 @@
+.teacher-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.teacher-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 1100px;
+  font-size: 14px;
+  color: #172033;
+}
+
+.teacher-table thead {
+  background: #f8fafc;
+}
+
+.teacher-table th {
+  padding: 16px 14px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: #475569;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+.teacher-table td {
+  padding: 15px 14px;
+  border-bottom: 1px solid #eef0f4;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.teacher-table tbody tr {
+  transition: background 0.2s ease;
+}
+
+.teacher-table tbody tr:hover {
+  background: #f8fbff;
+}
+
+/* Gi�o vi�n */
+
+.teacher-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 220px;
+}
+
+.teacher-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eaf1ff;
+  color: #2563eb;
+  font-size: 15px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.teacher-name strong {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  color: #172033;
+  margin-bottom: 4px;
+}
+
+.teacher-name span {
+  display: block;
+  font-size: 12px;
+  color: #64748b;
+}
+
+/* Tr?ng th�i */
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.status-active {
+  background: #eaf9f1;
+  color: #0f9f68;
+}
+
+.status-leave {
+  background: #fff4e8;
+  color: #e98a16;
+}
+
+/* Thi dua */
+
+.emulation {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.emulation strong {
+  width: 42px;
+  height: 42px;
+  border: 4px solid #22b573;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #172033;
+  background: #ffffff;
+}
+
+.emulation span {
+  font-size: 13px;
+  font-weight: 600;
+  color: #16a36b;
+}
+
+/* N�t */
+
+.view-button {
+  border: 1px solid #dbe2ea;
+  background: #ffffff;
+  color: #2563eb;
+  padding: 8px 12px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.view-button:hover {
+  background: #eff6ff;
+  border-color: #93c5fd;
+}
+
+/* C?t */
+
+.teacher-table th:nth-child(1),
+.teacher-table td:nth-child(1) {
+  width: 240px;
+}
+
+.teacher-table th:nth-child(2),
+.teacher-table td:nth-child(2) {
+  width: 90px;
+}
+
+.teacher-table th:nth-child(3),
+.teacher-table td:nth-child(3) {
+  width: 150px;
+}
+
+.teacher-table th:nth-child(4),
+.teacher-table td:nth-child(4) {
+  width: 130px;
+}
+
+.teacher-table th:nth-child(5),
+.teacher-table td:nth-child(5) {
+  width: 110px;
+}
+
+.teacher-table th:nth-child(6),
+.teacher-table td:nth-child(6) {
+  width: 130px;
+}
+
+.teacher-table th:nth-child(7),
+.teacher-table td:nth-child(7) {
+  width: 150px;
+}
+
+.teacher-table th:nth-child(8),
+.teacher-table td:nth-child(8) {
+  width: 110px;
+}
+
+/* Responsive */
+
+@media (max-width: 1200px) {
+  .teacher-table {
+    min-width: 1000px;
+  }
+}

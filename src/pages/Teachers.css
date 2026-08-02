@@ -1,0 +1,100 @@
+.teachers-page{
+  padding:32px;
+}
+
+.teachers-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.teachers-header h1{
+  margin:0;
+  font-size:32px;
+  font-weight:700;
+}
+
+.teachers-header p{
+  margin-top:8px;
+  color:#64748b;
+}
+
+.teachers-actions{
+  display:flex;
+  gap:12px;
+}
+
+.btn-primary{
+  padding:12px 20px;
+  border:none;
+  border-radius:10px;
+  background:#2563eb;
+  color:#fff;
+  cursor:pointer;
+}
+
+.btn-secondary{
+  padding:12px 20px;
+  border:1px solid #dbe2ea;
+  border-radius:10px;
+  background:#fff;
+  cursor:pointer;
+}
+.teachers-toolbar{
+    display:flex;
+    gap:16px;
+    margin-top:32px;
+    align-items:center;
+}
+
+.teacher-search{
+    width:320px;
+}
+
+.teachers-toolbar input,
+.teachers-toolbar select{
+    height:46px;
+    padding:0 14px;
+    border:1px solid #dbe2ea;
+    border-radius:10px;
+    font-size:14px;
+    background:white;
+}
+
+.btn-filter{
+    height:46px;
+    padding:0 18px;
+    border:1px solid #dbe2ea;
+    border-radius:10px;
+    background:#fff;
+    cursor:pointer;
+}
+.teachers-kpis{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    gap:18px;
+    margin-top:24px;
+}
+
+.kpi-card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    padding:20px;
+    box-shadow:0 2px 8px rgba(0,0,0,.04);
+}
+
+.kpi-card span{
+    color:#64748b;
+    font-size:14px;
+}
+
+.kpi-card h2{
+    margin:12px 0 8px;
+    font-size:34px;
+    font-weight:700;
+}
+
+.kpi-card small{
+    color:#16a34a;
+}
